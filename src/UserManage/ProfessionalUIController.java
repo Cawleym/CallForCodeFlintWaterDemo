@@ -5,9 +5,13 @@
  */
 package UserManage;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 
 /**
  * FXML Controller class
@@ -15,7 +19,9 @@ import javafx.fxml.Initializable;
  * @author Bingnan Dong
  */
 public class ProfessionalUIController implements Initializable {
-
+ @FXML private Label  helloTxt;
+    @FXML private Label Status;
+    private  static User loginUser;
     /**
      * Initializes the controller class.
      */
@@ -23,5 +29,12 @@ public class ProfessionalUIController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    
+        /**
+     * Set the login user
+     */
+    public void userSet(User user){
+        this.loginUser = user;
+    }
     
 }

@@ -32,7 +32,7 @@ public  class User {
      * @param firstName Set first name for the user
      * @param lastName  Set last name for the user
      * @param username  set username for the user
-     * @param emailaddress set emailaddress for the user 
+     * @param emailaddress set email address for the user 
      * @param  password set  password for the user
      * @param  type set type for the user
    */
@@ -119,6 +119,10 @@ public  class User {
      
     public LocalDate getDateOfBirth() {
         return dateOfBirth;
+    }
+    
+    public void setDateOfBirth(LocalDate dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 }
 

@@ -6,6 +6,7 @@
 package UserManage;
 
 import DataManage.UserWaterData;
+import DataManage.Profile;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -15,6 +16,7 @@ import java.util.ArrayList;
  */
 public class Resident extends User{
     private ArrayList<UserWaterData> UWData;
+    
     private ArrayList<Profile> profile;
  
     
@@ -26,7 +28,8 @@ public class Resident extends User{
      * @param username  set username for the Resident
      * @param emailaddress set email address for the Resident
      * @param  password set  password for thePatient
-     * @param  type set type for the Patient
+     * @param dateBirth set the birth date for the Resident
+     * @param  type set type as "Resident"
    */
     
     
@@ -51,6 +54,7 @@ public class Resident extends User{
    public ArrayList<Profile> getProfileData(String username){
         return profile;
     }
+   
    
 
    

@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserManage.ProfessionalUIController">
-    
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserManage.ProfessionalUIController">
+    <children>
+      <Button layoutX="101.0" layoutY="132.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="130.0" text="Data History" />
+      <Button layoutX="362.0" layoutY="132.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="130.0" text="Upload Data" />
+      <Button layoutX="514.0" layoutY="50.0" mnemonicParsing="false" text="Log Out" />
+      <Text layoutX="50.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome," wrappingWidth="209.13671875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Label layoutX="155.0" layoutY="35.0" prefHeight="28.0" prefWidth="96.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Text layoutX="203.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Professional Dashboard" wrappingWidth="194.67138671875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
 </AnchorPane>
